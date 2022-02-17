@@ -1,7 +1,6 @@
-# project
-library(readxl)
-juros<-read_excel("~/Downloads/API_FR.INR.RINR_DS2_en_excel_v2_3469494.xls")
-#vamos colocar taxa de juros real no projeto
+# Projeto de Ciência de Dados
 
+Projeto do curso de verão de Ciência de Dados do curso de Metrado em Economia da PUC-Rio.
 
-# Oii
+Aqui serão feitas todas tarefas e também o projeto final como exigência de conclusão do curso de Estatística.
+
