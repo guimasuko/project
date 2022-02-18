@@ -9,3 +9,8 @@ Interação entre alunos utilizando a ferramenta Issue.
 
 ## Tarefa 02
 Criação de dois tipos de gráficos informativos
+
+## Tarefa 03
+Utilizar a ferramenta de web scraping para coleta de dados
+Fazer limpeza destes dados
+Criar gráficos a partir destes dados
