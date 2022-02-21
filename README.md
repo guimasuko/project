@@ -16,3 +16,8 @@ Utilizar a ferramenta de web scraping para coleta de dados
 Fazer limpeza destes dados 
 
 Criar gráficos a partir destes dados
+
+## Tarefa 04
+Criar um indicador para medir a vegetação de cada município por para o estado do Rio de Janeiro.
+
+O indicador proposto foi obtido a partir da razão de pixels relacionado à florestas sobre pixels totais.
