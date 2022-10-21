@@ -47,12 +47,12 @@ rj =  rj %>%
   left_join(forest_mun, by = "ID")
 
 rj = rj %>%
-  mutate(`Razão Florestal` = (n_forest/n_pixels))
+  mutate(`Razï¿½o Florestal` = (n_forest/n_pixels))
 
 texto_azul <- element_text(color = "#201c5c", family = "mono")
 
 ggplot(rj) +
-  geom_sf(aes(fill = `Razão Florestal`)) +
+  geom_sf(aes(fill = `Razï¿½o Florestal`)) +
   theme(text = texto_azul,
   panel.background = element_rect(fill = "white"),
   axis.title=element_blank(),
@@ -60,12 +60,12 @@ ggplot(rj) +
   axis.ticks=element_blank(), 
   title = element_text(color = '#201c5c', face = 'bold')) +
   labs(title = "Cobertura Vegetal",
-         subtitle = "por município do estado do Rio de Janeiro",
+         subtitle = "por municï¿½pio do estado do Rio de Janeiro",
          x = NULL, y = NULL)+
   scale_fill_viridis_c(option = 'D')
          
-# Data frame final com os municípios e suas razões florestais
+# Data frame final com os municï¿½pios e suas razï¿½es florestais
 rj_ratio = rj %>%
-  select(name_muni, name_state, `Razão Florestal`)
+  select(name_muni, name_state, `Razï¿½o Florestal`)
 
 write.csv(rj_ratio, file="data/rj_ratio.csv")
